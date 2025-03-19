@@ -78,9 +78,9 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
-    background-size: 180px 180px;
+    background: url('img/canto\ dirieto.png') top right no-repeat,
+        url('img/canto\ esquerdo.png') bottom left no-repeat;
+    background-size: 285px 450px;
     /* Ajuste o tamanho conforme necessário */
 }
 
