@@ -22,10 +22,15 @@
                 <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
             </ul> 
-            <div id="acessibilidade">
-                <button id="aumentar-fonte" class="btn btn-primary fw-bold">A+</button>
-                <button id="diminuir-fonte" class="btn btn-primary fw-bold">A-</button>
-            </div>         
+    <!--Acessibilidade-->        
+    <div id="acessibilidade" class="menu-acessibilidade"> 
+        <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">acessibilidade</button>
+        <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+            <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+            <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="diminuir o tamanho da fonte">A-</button>
+            <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores"> <i class="bi bi-shadows"></i></button>         
+        </div>
+    </div>
         </nav>
        
     </header>
@@ -37,13 +42,14 @@
             <div class="inicio-fundo d-flex justify-content-between align-items-center">
                 <div class="esquerda-conteudo">
                     <h1 class="display-4 text-white fst-italic fw-bold">Welcome to</h1>
-                    <img src="img/logo-kuromi-fundo-transparente.png" alt="Logotipo secundário da Kuromi History" class="mb-3" width="563"
-                        height="736" loadi ng="lazy">
+                    <img src="img/logo-kuromi-fundo-transparente.png" alt="Logotipo secundário da Kuromi History" class="mb-3" width="585"
+                        height="295" loadi ng="lazy">
                     <a href="#tropicalia"
                         class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
                         conhecer!</a>
                 </div>
-
+              <img src="img/kuromi_transparent.png" alt="Ilustração de Kuromi, personagem da Sanrio, segurando um ursinho de pelúcia roxo.
+               Ela usa um chapéu de bobo da corte roxo com um laço preto e uma caveira rosa, transmitindo um visual travesso e estiloso." class="img-fluid img-inicio">
             </div>
         </section>
         <!--Descrição-->
@@ -89,7 +95,7 @@
                          Ela também tem uma cauda fina com uma ponta em formato de losango e pequenos pompons rosa em suas orelhas."
                             loading="lazy">
                             <div class="col-md-4">
-                                <img src="img/kuromi.3.jpg" class="img-fluid rounded-5" alt="Uma personagem fofa e travessa com um visual inspirado em um duende.
+                                <img src="img/kuromi.jpeg" class="img-fluid rounded-5" alt="Uma personagem fofa e travessa com um visual inspirado em um duende.
                                  Ela tem um corpo branco e veste um capuz preto com orelhas pontudas e uma caveira rosa na testa. Seu rosto expressa travessura, com olhos grandes e pretos, sobrancelhas arqueadas e um sorriso maroto.
                                  Ela também tem uma cauda fina com uma ponta em formato de losango e pequenos pompons rosa em suas orelhas."
                                     loading="lazy">
