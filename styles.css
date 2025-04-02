@@ -89,7 +89,7 @@ section {
     margin-bottom: 3rem;
     background: url('img/canto\ dirieto.png') top right no-repeat,
         url('img/canto\ esquerdo.png') bottom left no-repeat;
-    background-size: 285px 450px;
+    background-size: 350px 450px;
     /* Ajuste o tamanho conforme necessário */
 }
 
@@ -115,17 +115,20 @@ h2 {
 }
 
 #galeria {
-    background-color: #FAF4F4;
+    background: url(img/);
 
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
-    background-size: 180px 180px;
-}
+    background: url('img/fundo-galeria.jpg');
+     background-size: 180px 180px;
+     display: flex;
+     justify-content: center;
+ }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/fundo-contato.jpg');
+    border-radius: 80px;
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -209,5 +212,5 @@ h2 {
     background-color: var(--alto-contraste-fundo);
 }
 .alto-contraste .fundo-galeria {
-    background: none;
+    background: rgb(67, 30, 82);
 }
