@@ -87,9 +87,9 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/canto\ dirieto.png') top right no-repeat,
-        url('img/canto\ esquerdo.png') bottom left no-repeat;
-    background-size: 350px 450px;
+    background: url('img/cantos.png') top right no-repeat,
+        url('img/cantos.png') bottom left no-repeat;
+    background-size: 250px 250px;
     /* Ajuste o tamanho conforme necessário */
 }
 
